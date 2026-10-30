@@ -28,3 +28,4 @@ nbproject/private/
 .idea/
 *.iml
 .vscode/
+config/db.properties
