@@ -2,50 +2,51 @@ REPORTE DE ANÁLISIS DE VENTAS
 ============================================================
 
 1. CONTEO DE REGISTROS
-Recibidos : 19
-Aceptados : 12
-Rechazados (inválidos): 6
-Duplicados: 1
-% rechazo (solo inválidos)      : 31.58%
-% rechazo (inválidos+duplicados): 36.84%
+Recibidos : 31
+Aceptados : 17
+Rechazados (inválidos): 11
+Duplicados: 3
+% rechazo (solo inválidos)      : 35.48%
+% rechazo (inválidos+duplicados): 45.16%
 
 2. MONTOS GENERALES
-Monto total vendido      : 18,029.50
-Promedio por transacción : 1,502.46
+Monto total vendido      : 28,166.50
+Promedio por transacción : 1,656.85
 
 3. VENTAS POR MES
 Mes                                Trans.            Monto
 2026-06                                 4         7,606.50
 2026-07                                 4         6,063.00
 2026-08                                 3         3,763.00
-2026-09                                 1           597.00
+2026-09                                 3         1,934.00
+2026-10                                 3         8,800.00
 
 4. VENTAS POR SUCURSAL
 Sucursal                           Trans.            Monto
-Zacapa                                  3         8,498.00
-Esquipulas                              3         7,247.00
-Jutiapa                                 3         1,438.00
+Esquipulas                              5        11,142.00
+Zacapa                                  5         9,540.00
+Jutiapa                                 4         6,638.00
 Chiquimula                              3           846.50
 
 5. VENTAS POR PRODUCTO
 Producto                           Trans.            Monto
-Laptop Lenovo 15                        2        10,400.00
-Monitor 24 Pulgadas                     2         4,350.00
-Teclado Mecánico                        2         1,050.00
-Audífonos Bluetooth                     2           995.00
-Mouse Inalámbrico                       2           769.50
+Laptop Lenovo 15                        3        15,600.00
+Monitor 24 Pulgadas                     3         7,250.00
+Audífonos Bluetooth                     3         1,990.00
+Teclado Mecánico                        3         1,750.00
+Mouse Inalámbrico                       3         1,111.50
 Memoria USB 64GB, Azul                  1           240.00
 Cable HDMI                              1           225.00
 
 6. VENTAS POR VENDEDOR
 Vendedor                           Trans.            Monto
-Ana López                               3         8,498.00
-María Gómez                             3         7,247.00
-Luis Ramos                              3         1,438.00
+María Gómez                             5        11,142.00
+Ana López                               5         9,540.00
+Luis Ramos                              4         6,638.00
 Carlos Pérez                            3           846.50
 
 7. PRODUCTOS EXTREMOS
-Mayor monto: Laptop Lenovo 15 -> 10,400.00 (2 transacciones)
+Mayor monto: Laptop Lenovo 15 -> 15,600.00 (3 transacciones)
 Menor monto: Cable HDMI -> 225.00 (1 transacciones)
 
 8. TRANSACCIONES EXTREMAS
@@ -54,6 +55,6 @@ Menor monto: V006 | 2026-07-08 | Jutiapa | Cable HDMI | Luis Ramos -> 225.00
 
 9. TOP 3 VENDEDORES POR MONTO
 Vendedor                           Trans.            Monto
-Ana López                               3         8,498.00
-María Gómez                             3         7,247.00
-Luis Ramos                              3         1,438.00
+María Gómez                             5        11,142.00
+Ana López                               5         9,540.00
+Luis Ramos                              4         6,638.00

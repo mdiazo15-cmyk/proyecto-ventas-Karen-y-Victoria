@@ -2,6 +2,8 @@ package edu.umg.ventas;
 
 import edu.umg.ventas.analisis.ConsultasAnalisis;
 import edu.umg.ventas.lectura.LectorCsv;
+import edu.umg.ventas.lectura.LectorJson;
+import edu.umg.ventas.lectura.LectorXml;
 import edu.umg.ventas.lectura.LectorVentas;
 import edu.umg.ventas.modelo.RegistroCrudo;
 import edu.umg.ventas.modelo.RegistroRechazado;
@@ -79,7 +81,12 @@ public class Main {
         if (nombre.endsWith(".csv")) {
             return new LectorCsv();
         }
-        // Aquí se agregarán .json y .xml cuando existan LectorJson y LectorXml
+        if (nombre.endsWith(".json")) {
+            return new LectorJson();
+        }
+        if (nombre.endsWith(".xml")) {
+            return new LectorXml();
+        }
         return null;
     }
 

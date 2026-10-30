@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ventas>
+  <venta>
+    <id_venta>V201</id_venta><fecha>2026-09-20</fecha><sucursal>Esquipulas</sucursal>
+    <codigo_producto>AUD-005</codigo_producto><producto>Audífonos Bluetooth</producto>
+    <cantidad>5</cantidad><precio_unitario>199.00</precio_unitario><vendedor>María Gómez</vendedor>
+  </venta>
+  <venta>
+    <id_venta>v202</id_venta><fecha>2026-10-05</fecha><sucursal> Zacapa </sucursal>
+    <codigo_producto>TEC-002</codigo_producto><producto>Teclado mecánico</producto>
+    <cantidad>2</cantidad><precio_unitario>350.00</precio_unitario><vendedor>ANA LÓPEZ</vendedor>
+  </venta>
+  <venta>
+    <id_venta>V101</id_venta><fecha>2026-09-15</fecha><sucursal>Zacapa</sucursal>
+    <codigo_producto>MOU-014</codigo_producto><producto>Mouse inalámbrico</producto>
+    <cantidad>4</cantidad><precio_unitario>85.50</precio_unitario><vendedor>Ana López</vendedor>
+  </venta>
+  <venta>
+    <id_venta>V203</id_venta><fecha>2026-10-18</fecha><sucursal>Jutiapa</sucursal>
+    <codigo_producto>CAB-003</codigo_producto><producto>Cable HDMI</producto>
+    <cantidad>3</cantidad><precio_unitario>0</precio_unitario><vendedor>Luis Ramos</vendedor>
+  </venta>
+  <venta>
+    <id_venta>V204</id_venta><fecha></fecha><sucursal>Chiquimula</sucursal>
+    <codigo_producto>MON-010</codigo_producto><producto>Monitor 24 pulgadas</producto>
+    <cantidad>1</cantidad><precio_unitario>1450.00</precio_unitario><vendedor>Carlos Pérez</vendedor>
+  </venta>
+</ventas>

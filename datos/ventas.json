@@ -1,0 +1,9 @@
+[
+  {"id_venta": "V101", "fecha": "2026-09-15", "sucursal": "ZACAPA", "codigo_producto": "mou-014", "producto": "Mouse inalámbrico", "cantidad": 4, "precio_unitario": 85.50, "vendedor": "ana lópez"},
+  {"id_venta": "V102", "fecha": "2026-10-02", "sucursal": "Jutiapa", "codigo_producto": "LAP-001", "producto": "Laptop Lenovo 15", "cantidad": 1, "precio_unitario": 5200.00, "vendedor": "Luis Ramos"},
+  {"id_venta": "V103", "fecha": "15/10/2026", "sucursal": "Esquipulas", "codigo_producto": "MON-010", "producto": "Monitor 24 pulgadas", "cantidad": 2, "precio_unitario": 1450.00, "vendedor": "María Gómez"},
+  {"id_venta": "V005", "fecha": "2026-07-02", "sucursal": "Zacapa", "codigo_producto": "AUD-005", "producto": "Audífonos Bluetooth", "cantidad": 2, "precio_unitario": 199.00, "vendedor": "Ana López"},
+  {"id_venta": "V104", "fecha": "2026-13-01", "sucursal": "Zacapa", "codigo_producto": "CAB-003", "producto": "Cable HDMI", "cantidad": 1, "precio_unitario": 45.00, "vendedor": "Ana López"},
+  {"id_venta": "V105", "fecha": "2026-10-10", "sucursal": "", "codigo_producto": "USB-007", "producto": "Memoria USB 64GB", "cantidad": 2, "precio_unitario": 60.00, "vendedor": "Carlos Pérez"},
+  {"id_venta": "V106", "fecha": "2026-10-12", "sucursal": "Chiquimula", "codigo_producto": "TEC-002", "producto": "Teclado mecánico", "cantidad": 99999, "precio_unitario": 350.00, "vendedor": "Carlos Pérez"}
+]
