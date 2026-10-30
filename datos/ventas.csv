@@ -1,0 +1,20 @@
+id_venta,fecha,sucursal,codigo_producto,producto,cantidad,precio_unitario,vendedor
+V001,2026-06-03,Zacapa,LAP-001,Laptop Lenovo 15,1,5200.00,Ana López
+V002,2026-06-10,  chiquimula ,MOU-014,Mouse inalámbrico,3,85.50,CARLOS Pérez
+V003,2026-06-15,Jutiapa,TEC-002,Teclado mecánico,2,350.00,Luis Ramos
+V004,2026-06-20,Esquipulas,MON-010,Monitor 24 pulgadas,1,1450.00,María Gómez
+V005,2026-07-02,Zacapa,AUD-005,Audífonos Bluetooth,2,199.00,Ana López
+V006,2026-07-08,jutiapa,CAB-003,Cable HDMI,5,45.00,luis ramos
+V007,2026-07-12,Chiquimula,USB-007,"Memoria USB 64GB, azul",4,60.00,Carlos Pérez
+V008,2026-07-19,Esquipulas,LAP-001,Laptop Lenovo 15,1,5200.00,María Gómez
+V009,2026-08-01,Zacapa,MON-010,Monitor 24 pulgadas,2,1450.00,Ana López
+V010,2026-08-05,Jutiapa,MOU-014,Mouse inalámbrico,6,85.50,Luis Ramos
+V011,2026-08-14,Chiquimula,TEC-002,Teclado mecánico,1,350.00,Carlos Pérez
+V012,2026-09-03,Esquipulas,AUD-005,Audífonos Bluetooth,3,199.00,María Gómez
+V013,2026-07-04,Zacapa,TEC-002,Teclado mecánico,0,350.00,Ana López
+V014,2026-02-31,Jutiapa,CAB-003,Cable HDMI,2,45.00,Luis Ramos
+V001,2026-06-03,Zacapa,LAP-001,Laptop Lenovo 15,1,5200.00,Ana López
+V015,2026-07-05,Zacapa,,Audífonos Bluetooth,1,199.00,Ana López
+V016,2026-08-20,Jutiapa,MOU-014,Mouse inalámbrico,2,-85.50,Luis Ramos
+V017,2026-09-10,Chiquimula,USB-007,Memoria USB 64GB,abc,60.00,Carlos Pérez
+V018,2026-09-12,Zacapa,MON-010,Monitor 24 pulgadas,1,1450.00,
