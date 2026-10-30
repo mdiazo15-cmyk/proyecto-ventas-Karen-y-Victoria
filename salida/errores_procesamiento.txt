@@ -1,0 +1,11 @@
+ERRORES DE PROCESAMIENTO
+============================================================
+Total de registros rechazados: 7
+
+[INVALIDO] archivo=ventas.csv | registro #13 | id_venta=V013 | motivo: cantidad debe ser mayor que 0, llegó: 0
+[INVALIDO] archivo=ventas.csv | registro #14 | id_venta=V014 | motivo: fecha inválida o con formato no reconocido: '2026-02-31'
+[DUPLICADO] archivo=ventas.csv | registro #15 | id_venta=V001 | motivo: id_venta duplicado: ya fue aceptado en ventas.csv #1
+[INVALIDO] archivo=ventas.csv | registro #16 | id_venta=V015 | motivo: codigo_producto vacío
+[INVALIDO] archivo=ventas.csv | registro #17 | id_venta=V016 | motivo: precio_unitario debe ser mayor que 0, llegó: -85.50
+[INVALIDO] archivo=ventas.csv | registro #18 | id_venta=V017 | motivo: cantidad no es un entero válido: 'abc'
+[INVALIDO] archivo=ventas.csv | registro #19 | id_venta=V018 | motivo: vendedor vacío
