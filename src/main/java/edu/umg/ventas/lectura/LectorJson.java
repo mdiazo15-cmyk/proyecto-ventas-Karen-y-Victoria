@@ -32,20 +32,32 @@ public class LectorJson implements LectorVentas {
             int numero = 0;
             for (JsonElement elemento : arreglo) {
                 numero++;
-                Map<String, String> campos = new LinkedHashMap<>();
-                if (elemento.isJsonObject()) {
-                    JsonObject obj = elemento.getAsJsonObject();
-                    for (String clave : obj.keySet()) {
-                        JsonElement valor = obj.get(clave);
-                        campos.put(clave.trim().toLowerCase(),
-                                valor == null || valor.isJsonNull() ? null : valor.getAsString());
-                    }
-                }
-                registros.add(new RegistroCrudo(nombreArchivo, numero, campos));
+                registros.add(new RegistroCrudo(nombreArchivo, numero, convertirElemento(elemento)));
             }
         } catch (JsonParseException e) {
             throw new IOException("JSON mal formado en " + nombreArchivo + ": " + e.getMessage(), e);
         }
         return registros;
+    }
+
+    /** Convierte un objeto JSON en un mapa campo -> texto. Si no es objeto, devuelve un mapa vacío. */
+    private Map<String, String> convertirElemento(JsonElement elemento) {
+        Map<String, String> campos = new LinkedHashMap<>();
+        if (!elemento.isJsonObject()) {
+            return campos;   // el validador lo rechazará por campos vacíos
+        }
+        JsonObject objeto = elemento.getAsJsonObject();
+        for (String clave : objeto.keySet()) {
+            campos.put(clave.trim().toLowerCase(), valorComoTexto(objeto.get(clave)));
+        }
+        return campos;
+    }
+
+    /** Nunca lanza excepción: un valor raro (objeto, arreglo) llega como texto y se rechaza al validar. */
+    private String valorComoTexto(JsonElement valor) {
+        if (valor == null || valor.isJsonNull()) {
+            return null;
+        }
+        return valor.isJsonPrimitive() ? valor.getAsString() : valor.toString();
     }
 }
